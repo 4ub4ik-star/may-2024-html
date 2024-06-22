@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blocks</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        .main {
+            width: 1500px;
+            height: 200px;
+            background-color: antiquewhite;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .blocks {
+            display: flex;
+            gap: 100px;
+        }
+
+        .block {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+
+        .block:hover {
+            background-color: gray;
+            border-radius: 50%;
+            transition: 1.5s;
+        }
+
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="blocks">
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+    </div>
+</div>
+</body>
+</html>
